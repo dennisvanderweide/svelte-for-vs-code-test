@@ -1,0 +1,11 @@
+{
+	"name": "Svelte for VS Code test",
+	"dockerComposeFile": ["docker-compose.yml"],
+	"service": "web",
+	"workspaceFolder": "/home/node/workspace/",
+	"customizations": {
+		"vscode": {
+			"extensions": ["svelte.svelte-vscode@109.1.0", "esbenp.prettier-vscode"]
+		}
+	}
+}
